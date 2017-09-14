@@ -44,6 +44,10 @@
 	</tbody>
 </table>
 
+效果示意图：
+
+![image](./demosrc/h-icon/h-icon-basic.png)
+
 ### Radio 组件
 
 ![image](./demosrc/h-radio/h-radio-basic.png)
