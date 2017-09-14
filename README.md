@@ -22,7 +22,7 @@ Icon
 
 Radio
 
-![image](http://ojihaa8pb.bkt.clouddn.com/h-radio-basic.png)
+![image](http://ojihaa8pb.bkt.clouddn.com/h-radio-basic.jpg)
 
 ### 其它
 

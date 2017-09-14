@@ -1,6 +1,6 @@
 <template>
 	<div class="container">
-		<Icon v-for="icon in icons" :type="icon.type"></Icon>
+		<Icon v-for="(icon, index) in icons" :type="icon.type" :key="index"></Icon>
 	</div>
 </template>
 <script>

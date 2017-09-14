@@ -1,12 +1,12 @@
 <template>
   <div class="app-container">
   	<div class="container">  		
-    	<Radio v-model="checked1" :items="items1" :right="right" :border="border" :direction="direction"></Radio>
+    	<Radio v-model="checked1" :items="items1" :right="right1" :border="border" :direction="direction"></Radio>
   	</div>	
 
   	<div class="container">  		
   	  <Radio v-model="checked2" :items="items2" :right="right" :border="border" :direction="direction"></Radio>
-  	</div>	
+  	</div>
   </div>
 </template>
 <script>
@@ -26,11 +26,12 @@
     			{ value: 'i3', title: '打豆豆' }
     		],
     		items2: [
-    			{ value: 't1', title: 'Google', icon: 'chrome', iconsize: 28, iconcolor: '#46466E' },
-    			{ value: 't2', title: 't2', icon: 'safari', iconsize: 28, iconcolor: '#46466E' },
-    			{ value: 't3', title: 't3', icon: 'firefox', iconsize: 28, iconcolor: '#46466E' }
+    			{ value: 't1', title: 'Google Chrome', icon: 'chrome', iconsize: 28, iconcolor: '#46466E' },
+    			{ value: 't2', title: 'Safari', icon: 'safari', iconsize: 28, iconcolor: '#46466E' },
+    			{ value: 't3', title: 'Firefox', icon: 'firefox', iconsize: 28, iconcolor: '#46466E' }
     		],
     		right: true,
+        right1: false,
     		direction: 'column'
     	}
     }
@@ -40,7 +41,8 @@
 	.container {
 		width: 480px;
 		border: 1px solid #ccc;
-		border-bottom-style: none;
+    margin-bottom: 16px;
+    border-bottom-style: none;
 	}
 
 	.app-container {

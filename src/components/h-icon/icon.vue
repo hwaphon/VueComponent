@@ -1,7 +1,8 @@
 <template>
-  <span :class="['fa', 'fa-' + type]" :style="styleObj"></span>
+  <span :class="['fa', 'fa-' + type]" :style="styleObj" @click="clickHandler"></span>
 </template>
 <script>
+	import Event from '../../const/event'
 	export default {
 		props: {
 			type: {
@@ -23,6 +24,11 @@
 					fontSize: this.size + 'px',
 					color: this.color || ''
 				}
+			}
+		},
+		methods: {
+			clickHandler () {
+				this.$emit(Event.CLICK)
 			}
 		}
 	}
