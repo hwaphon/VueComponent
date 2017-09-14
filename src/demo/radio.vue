@@ -17,18 +17,18 @@
     },
     data () {
     	return {
-    		checked1: 'item1',
+    		checked1: 'i1',
     		checked2: 't2',
     		border: true,
     		items1: [
-    			{ value: 'item1', title: 'item1' },
-    			{ value: 'item2', title: 'item2' },
-    			{ value: 'item3', title: 'item3' }
+    			{ value: 'i1', title: '吃饭' },
+    			{ value: 'i2', title: '睡觉' },
+    			{ value: 'i3', title: '打豆豆' }
     		],
     		items2: [
-    			{ value: 'item1', title: 't1', icon: 'chrome', iconsize: 28, iconcolor: '#46466E' },
-    			{ value: 'item2', title: 't2', icon: 'safari', iconsize: 28, iconcolor: '#46466E' },
-    			{ value: 'item3', title: 't3', icon: 'firefox', iconsize: 28, iconcolor: '#46466E' }
+    			{ value: 't1', title: 'Google', icon: 'chrome', iconsize: 28, iconcolor: '#46466E' },
+    			{ value: 't2', title: 't2', icon: 'safari', iconsize: 28, iconcolor: '#46466E' },
+    			{ value: 't3', title: 't3', icon: 'firefox', iconsize: 28, iconcolor: '#46466E' }
     		],
     		right: true,
     		direction: 'column'
