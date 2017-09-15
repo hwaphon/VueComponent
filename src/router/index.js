@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
+import Index from '@/components/index'
 import Radio from '@/demo/radio'
 import Icon from '@/demo/icon'
+import Tag from '@/demo/tag'
 
 Vue.use(Router)
 
@@ -10,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      name: 'Index',
+      component: Index
     },
     {
       path: '/radio',
@@ -22,6 +23,11 @@ export default new Router({
       path: '/icon',
       name: 'Icon',
       component: Icon
+    },
+    {
+      path: '/tag',
+      name: 'Tag',
+      component: Tag
     }
   ]
 })

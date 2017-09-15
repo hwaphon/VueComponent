@@ -35,5 +35,6 @@
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-around;
+		margin: 16px auto;
 	}
 </style>

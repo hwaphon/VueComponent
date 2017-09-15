@@ -16,13 +16,17 @@
 
 目前已经支持的组件如下：
 
-Icon
+#### Icon
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-icon-basic.png)
 
-Radio
+#### Radio
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-radio-basic.jpg)
+
+#### Tag
+
+![image](http://ojihaa8pb.bkt.clouddn.com/h-tag-basic.jpg)
 
 ### 其它
 
