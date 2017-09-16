@@ -32,6 +32,10 @@
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-tag-default.jpg)
 
+#### Checker
+
+![image](http://ojihaa8pb.bkt.clouddn.com/h-checker-basic.jpg)
+
 ### 其它
 
 欢迎各位小伙伴批评指正。
