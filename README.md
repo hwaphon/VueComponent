@@ -18,7 +18,7 @@
 
 #### 首页预览
 
-![image](http://ojihaa8pb.bkt.clouddn.com/h-index.jpg)
+![image](http://ojihaa8pb.bkt.clouddn.com/h-index-default.jpg)
 
 #### Icon
 
