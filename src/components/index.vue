@@ -12,6 +12,10 @@
 			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_Wolf.png" alt="icon_wolf">
 			<span class="text">Tag</span>
 		</div>
+		<div class="box" @click="checkerClick">
+			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_sea-horse.png" alt="icon_wolf">
+			<span class="text">Checker</span>
+		</div>
 	</div>
 </template>
 
@@ -26,6 +30,9 @@
 			},
 			tagClick () {
 				this.$router.push('tag')
+			},
+			checkerClick () {
+				this.$router.push('checker')
 			}
 		}
 	}
