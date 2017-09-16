@@ -68,10 +68,3 @@
   	}
   }
 </script>
-
-<style>
-  .h-radio {
-    display: flex;
-    justify-content: space-around;
-  }
-</style>

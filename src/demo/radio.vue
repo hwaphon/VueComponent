@@ -61,8 +61,7 @@
 <style scoped>
 	.container {
 		width: 480px;
-		border: 1px solid #ccc;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
     border-bottom-style: none;
 	}
 

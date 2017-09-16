@@ -2,6 +2,7 @@
 	<div class="app">
 		<div class="box" @click="iconClick">Icon</div>
 		<div class="box" @click="radioClick">Radio</div>
+		<div class="box" @click="tagClick">Tag</div>
 	</div>
 </template>
 
@@ -13,6 +14,9 @@
 			},
 			radioClick () {
 				this.$router.push('radio')
+			},
+			tagClick () {
+				this.$router.push('tag')
 			}
 		}
 	}

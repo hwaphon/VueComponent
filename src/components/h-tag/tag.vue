@@ -58,37 +58,5 @@
 	}
 </script>
 <style scoped>
-	.h-tag {
-		background-color: #ccc;
-		display: inline-block;
-		padding: 0 16px;
-		height: 34px;
-		line-height: 34px;
-		position: relative;
-	}
-
-	.circle {
-		border-radius: 17px;
-	}
-
-	.triangle {
-		width: 34px;
-		height: 34px;
-		position: absolute;
-		left: -34px;
-		top: 0px;
-	}
-
-	.triangle::before {
-		content: "";
-		position: absolute;
-		width: 0px;
-		height: 0px;
-		border: 17px solid;
-		border-top-color: transparent;
-		border-bottom-color: transparent;
-		border-left-color: transparent;
-		top: 0;
-		right: 0;
-	}
+	@import '../../styles/h-tag/tag.css'
 </style>

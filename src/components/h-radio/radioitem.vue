@@ -89,48 +89,5 @@
   }
 </script>
 <style scoped>
-  .h-radio-item {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 8px 16px;
-    cursor: pointer;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-  }
-
-  .h-radio-item-shape {
-    margin-left: 16px;
-    border-radius: 50%;
-    border: 2px solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    margin-right: 16px;
-  }
-
-  .h-radio-item-extra {
-    flex: 1;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .h-radio-item-right {
-    order: 1;
-  }
-
-  .h-radio-item-noborder {
-    border: none;
-  }
-
-  .h-radio-item-title {
-    font-size: 18px;
-  }
-  .h-radio-item-icon {
-    margin-right: 16px;
-  }
+  @import '../../styles/h-radio/radioitem.css'
 </style>
