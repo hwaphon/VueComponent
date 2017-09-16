@@ -26,7 +26,7 @@
 
 #### Tag
 
-![image](http://ojihaa8pb.bkt.clouddn.com/h-tag-basic.jpg)
+![image](http://ojihaa8pb.bkt.clouddn.com/h-tag-default.jpg)
 
 ### 其它
 
