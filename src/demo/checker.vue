@@ -15,7 +15,7 @@
 			<Checker 
 				:checkerItems="items" 
 				v-model="checked" 
-				:gutter="gutter" 
+				:gutter="gutter"
 				checkedBorderColor="#58e"
 				:max="max">
 				</Checker>

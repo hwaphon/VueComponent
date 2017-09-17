@@ -82,14 +82,5 @@
 	}
 </script>
 <style scoped>
-	.h-checker-item {
-		display: inline-block;
-		padding: 5px 16px;
-		border: 1px solid;
-		cursor: pointer;
-	}
-
-	.h-checker-item:active {
-		background-color: #eee;
-	}
+	@import '../../styles/h-checker/checkeritem.css'
 </style>
