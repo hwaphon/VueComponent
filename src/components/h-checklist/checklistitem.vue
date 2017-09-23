@@ -73,39 +73,5 @@
 	}
 </script>
 <style scoped>
-	::selection {
-		background-color: transparent;
-	}
-	.h-checklist-item {
-		display: flex;
-		flex-flow: row nowrap;
-		align-items: center;
-		padding: 8px 16px;
-		border-bottom: 1px solid;
-	}
-
-	.h-shape-container {
-		border: 2px solid;
-		cursor: pointer;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 4px;
-	}
-
-	.h-shaper-container-circle {
-		border-radius: 100%;
-	}
-
-	.h-extra {
-		display: flex;
-		align-items: center;
-		flex: 1;
-		padding: 0 16px;
-		cursor: pointer;
-	}
-
-	.h-shape-container-right {
-		order: 2;
-	}
+	@import "../../styles/h-checklist/checklistitem.css"
 </style>
