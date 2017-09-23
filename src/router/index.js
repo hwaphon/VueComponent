@@ -5,6 +5,7 @@ import Radio from '@/demo/radio'
 import Icon from '@/demo/icon'
 import Tag from '@/demo/tag'
 import Checker from '@/demo/checker'
+import Checklist from '@/demo/checklist'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/checker',
       name: 'Checker',
       component: Checker
+    },
+    {
+      path: '/checklist',
+      name: 'Checklist',
+      component: Checklist
     }
   ]
 })

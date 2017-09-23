@@ -16,6 +16,10 @@
 			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_sea-horse.png" alt="icon_wolf">
 			<span class="text">Checker</span>
 		</div>
+		<div class="box" @click="checklistClick">
+			<img src="http://ojihaa8pb.bkt.clouddn.com/iconicon_Sheep.png" alt="icon_wolf">
+			<span class="text">Checklist</span>
+		</div>
 	</div>
 </template>
 
@@ -33,6 +37,9 @@
 			},
 			checkerClick () {
 				this.$router.push('checker')
+			},
+			checklistClick () {
+				this.$router.push('checklist')
 			}
 		}
 	}
@@ -43,6 +50,7 @@
 		display: flex;
 		flex-flow: row wrap;
 		padding: 16px 5%;
+		justify-content: center;
 	}
 
 	.box {
@@ -50,6 +58,7 @@
 		height: 180px;
 		border: 1px solid #ccc;
 		margin-right: 16px;
+		margin-top: 16px;
 		cursor: pointer;
 		background-color: #2c3e50;
 		font-size: 36px;
