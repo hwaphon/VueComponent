@@ -40,6 +40,10 @@
 
 ![image](http://ownp5gqo8.bkt.clouddn.com/h-checklist-basic.jpg)
 
+#### Swiper
+
+![image](http://ojihaa8pb.bkt.clouddn.com/h-swiper.jpg)
+
 ### 其它
 
 欢迎各位小伙伴批评指正。

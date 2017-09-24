@@ -6,6 +6,7 @@ import Icon from '@/demo/icon'
 import Tag from '@/demo/tag'
 import Checker from '@/demo/checker'
 import Checklist from '@/demo/checklist'
+import Swiper from '@/demo/swiper'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/checklist',
       name: 'Checklist',
       component: Checklist
+    },
+    {
+      path: '/swiper',
+      name: 'Swiper',
+      component: Swiper
     }
   ]
 })

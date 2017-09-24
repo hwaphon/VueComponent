@@ -1,0 +1,48 @@
+.h-swiper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.h-swiper-dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	bottom: 12px;
+	cursor: pointer;
+}
+
+.h-swiper-dot-select {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	top: 2px;
+	left: 2px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.h-swiper-dot-show > .h-swiper-dot-select{
+	visibility: visible;
+	opacity: 1;
+	transition: all .3s;
+}
+
+.h-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.h-left-arrow {
+	left: 16px;
+}
+
+.h-right-arrow {
+	right: 16px;
+}

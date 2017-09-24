@@ -20,6 +20,10 @@
 			<img src="http://ojihaa8pb.bkt.clouddn.com/iconicon_Sheep.png" alt="icon_wolf">
 			<span class="text">Checklist</span>
 		</div>
+		<div class="box" @click="swiperClick">
+			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_Rooster.png" alt="icon_wolf">
+			<span class="text">Swiper</span>
+		</div>
 	</div>
 </template>
 
@@ -40,6 +44,9 @@
 			},
 			checklistClick () {
 				this.$router.push('checklist')
+			},
+			swiperClick () {
+				this.$router.push('swiper')
 			}
 		}
 	}
