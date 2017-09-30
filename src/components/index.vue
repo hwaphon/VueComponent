@@ -24,6 +24,10 @@
 			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_Rooster.png" alt="icon_wolf">
 			<span class="text">Swiper</span>
 		</div>
+		<div class="box" @click="modalClick">
+			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_Rabbit.png" alt="icon_rabbit">
+			<span class="text">Modal</span>
+		</div>
 	</div>
 </template>
 
@@ -47,6 +51,9 @@
 			},
 			swiperClick () {
 				this.$router.push('swiper')
+			},
+			modalClick () {
+				this.$router.push('modal')
 			}
 		}
 	}

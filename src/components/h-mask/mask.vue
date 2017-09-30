@@ -1,25 +1,13 @@
 <template>
-	<div class="h-mask" @click="clickHandler" v-if="show">
+	<div class="h-mask" @click="clickHandler">
 	</div>
 </template>
 <script>
+	import Event from '@/const/event'
 	export default {
-		props: {
-			clickable: {
-				type: Boolean,
-				default: true
-			}
-		},
-		data () {
-			return {
-				show: true
-			}
-		},
 		methods: {
 			clickHandler () {
-				if (this.clickable && this.show) {
-					this.show = false
-				}
+				this.$emit(Event.CLICK)
 			}
 		}
 	}
