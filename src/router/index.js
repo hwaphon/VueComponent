@@ -7,6 +7,7 @@ import Tag from '@/demo/tag'
 import Checker from '@/demo/checker'
 import Checklist from '@/demo/checklist'
 import Swiper from '@/demo/swiper'
+import Mask from '@/demo/mask'
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/swiper',
       name: 'Swiper',
       component: Swiper
+    },
+    {
+      path: '/mask',
+      name: 'Mask',
+      component: Mask
     }
   ]
 })
