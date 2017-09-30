@@ -16,10 +16,6 @@
 
 目前已经支持的组件如下：
 
-#### 首页预览
-
-![image](http://ojihaa8pb.bkt.clouddn.com/h-index-default.jpg)
-
 #### Icon
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-icon-basic.png)
@@ -43,6 +39,10 @@
 #### Swiper
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-swiper.jpg)
+
+#### Modal
+
+![image](http://ojihaa8pb.bkt.clouddn.com/h-modal-basic.jpg)
 
 ### 其它
 
