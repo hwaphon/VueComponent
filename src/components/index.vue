@@ -28,6 +28,10 @@
 			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_Rabbit.png" alt="icon_rabbit">
 			<span class="text">Modal</span>
 		</div>
+		<div class="box" @click="avatarClick">
+			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_Lion.png" alt="icon_rabbit">
+			<span class="text">Avatar</span>
+		</div>
 	</div>
 </template>
 
@@ -54,6 +58,9 @@
 			},
 			modalClick () {
 				this.$router.push('modal')
+			},
+			avatarClick () {
+				this.$router.push('avatar')
 			}
 		}
 	}

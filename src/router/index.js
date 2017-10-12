@@ -8,6 +8,7 @@ import Checker from '@/demo/checker'
 import Checklist from '@/demo/checklist'
 import Swiper from '@/demo/swiper'
 import Modal from '@/demo/modal'
+import Avatar from '@/demo/avatar'
 
 Vue.use(Router)
 
@@ -52,6 +53,11 @@ export default new Router({
       path: '/modal',
       name: 'Modal',
       component: Modal
+    },
+    {
+      path: '/avatar',
+      name: 'Avatar',
+      component: Avatar
     }
   ]
 })

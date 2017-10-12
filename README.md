@@ -44,6 +44,10 @@
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-modal-basic.jpg)
 
+### Avatar
+
+![image](http://ojihaa8pb.bkt.clouddn.com/h-avatar.png)
+
 ### 其它
 
 欢迎各位小伙伴批评指正。

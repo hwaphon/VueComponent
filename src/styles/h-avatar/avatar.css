@@ -1,0 +1,10 @@
+.h-avatar {
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.h-avatar_circle {
+	border-radius: 100%;
+}
