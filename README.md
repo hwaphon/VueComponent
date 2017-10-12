@@ -44,7 +44,7 @@
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-modal-basic.jpg)
 
-### Avatar
+#### Avatar
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-avatar.png)
 
