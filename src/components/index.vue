@@ -29,8 +29,12 @@
 			<span class="text">Modal</span>
 		</div>
 		<div class="box" @click="avatarClick">
-			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_Lion.png" alt="icon_rabbit">
+			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_Lion.png" alt="icon_lion">
 			<span class="text">Avatar</span>
+		</div>
+		<div class="box" @click="buttonClick">
+			<img src="http://ojihaa8pb.bkt.clouddn.com/icon_Monkey.png" alt="icon_Monkey">
+			<span class="text">Button</span>
 		</div>
 	</div>
 </template>
@@ -61,6 +65,9 @@
 			},
 			avatarClick () {
 				this.$router.push('avatar')
+			},
+			buttonClick () {
+				this.$router.push('button')
 			}
 		}
 	}
