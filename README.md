@@ -6,7 +6,7 @@
 
 ### 引用
 
-	如果你需要使用 `HButton` 组件，只需要 `import { HButton } from vuecomponent` 即可，其它组件的使用方式也一样。
+如果你需要使用 `HButton` 组件，只需要 `import { HButton } from vuecomponent` 即可，其它组件的使用方式也一样。
 
 ### 文档
 
