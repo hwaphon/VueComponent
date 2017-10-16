@@ -12,7 +12,7 @@
 </template>
 <script>
 	import Icon from '../h-icon/icon.vue'
-	import Event from '@/const/event'
+	import Event from '../../const/event'
 	export default {
 		components: {
 			Icon

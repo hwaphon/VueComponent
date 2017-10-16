@@ -15,7 +15,7 @@
 </template>
 <script>
 	import HMask from '../h-mask/mask.vue'
-	import Event from '@/const/event'
+	import Event from '../../const/event'
 	export default {
 		components: {
 			HMask

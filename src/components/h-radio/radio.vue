@@ -19,7 +19,7 @@
   </div>
 </template>
 <script>
-  import RadioItem from '@/components/h-radio/radioitem'
+  import RadioItem from './radioitem'
   export default {
   	props: {
   		size: { 

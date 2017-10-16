@@ -4,7 +4,7 @@
 	</div>
 </template>
 <script>
-	import Event from '@/const/event'
+	import Event from '../../const/event'
 	export default {
 		props: {
 			title: {

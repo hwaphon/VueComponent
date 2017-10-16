@@ -15,7 +15,7 @@
 	</div>
 </template>
 <script>
-	import Event from '@/const/event'
+	import Event from '../../const/event'
 	import ChecklistItem from './checklistitem.vue'
 	export default {
 		components: {

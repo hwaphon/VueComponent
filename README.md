@@ -1,12 +1,12 @@
 # vuecomponent
 
 ### 安装
+	
+	npm i vuecomponent --save
 
-	git clone https://github.com/hwaphon/VueComponent.git
-	cd VueComponent
-	npm i
-	npm run dev
+### 引用
 
+	如果你需要使用 `HButton` 组件，只需要 `import { HButton } from vuecomponent` 即可，其它组件的使用方式也一样。
 
 ### 文档
 
@@ -16,39 +16,39 @@
 
 目前已经支持的组件如下：
 
-#### Icon
+#### HIcon
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-icon-basic.png)
 
-#### Radio
+#### HRadio
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-radio-basic.jpg)
 
-#### Tag
+#### HTag
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-tag-default.jpg)
 
-#### Checker
+#### HChecker
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-checker-basic.jpg)
 
-#### Checklist
+#### HChecklist
 
 ![image](http://ownp5gqo8.bkt.clouddn.com/h-checklist-basic.jpg)
 
-#### Swiper
+#### HSwiper
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-swiper.jpg)
 
-#### Modal
+#### HModal
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-modal-basic.jpg)
 
-#### Avatar
+#### HAvatar
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-avatar.png)
 
-#### Button
+#### HButton
 
 ![image](http://ojihaa8pb.bkt.clouddn.com/h-button.png)
 

@@ -1,9 +1,9 @@
 {
   "name": "vuecomponent",
   "version": "1.0.0",
-  "description": "y",
-  "author": "gaohuafeng <gaohuafeng@corp-ci.com>",
-  "private": true,
+  "description": "",
+  "main": "src/index.js",
+  "author": "gaohuafeng <969489625@qq.com>",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",

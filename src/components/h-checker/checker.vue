@@ -17,7 +17,7 @@
 </template>
 <script>
 	import CheckerItem from './checkeritem.vue'
-	import Event from '@/const/event'
+	import Event from '../../const/event'
 	export default {
 		props: {
 			checkerItems: {

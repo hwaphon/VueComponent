@@ -40,7 +40,7 @@
 <script>
 	import SwiperItem from './swiperitem.vue'
 	import Icon from '../h-icon/icon.vue'
-	import Event from '@/const/event'
+	import Event from '../../const/event'
 	export default {
 		components: {
 			SwiperItem, Icon
